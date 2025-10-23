@@ -5,13 +5,14 @@
     "description": "这是shenshenovo的个人博客",
     "keywords": "Gyoza,blog,Astro,theme,shenshenovo,博客主题",
     "lang": "zh-CN",
-    "favicon": "/favicon1.ico",
-    "appleTouchIcon": "/apple-touch-icon.png"
+    "favicon": "/favicon3.ico",
+    "appleTouchIcon": "/apple-touch-icon.png",
+    "logo": "/1.png"
   },
   "author": {
     "name": "深深",
     "twitterId": "",
-    "avatar": "https://youke1.picui.cn/s1/2025/10/22/68f8a43e4936e.jpg"
+    "avatar": "https://youke1.picui.cn/s1/2025/10/22/68f8a1a8e8b33.jpg"
   },
   "hero": {
     "name": "shenshenovo",
