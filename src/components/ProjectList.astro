@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content'
+
+// 1. 获取 "life" 集合 (而不是 'projects')
+// 2. 按日期倒序排序
+const lifePosts = (await getCollection('life')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+)
+---
+
+<ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
+  {
+    // 3. 循环 "lifePosts" (并把变量 'project' 改名为 'post')
+    lifePosts.map((post) => (
+      <li>
+        {/* 4. 修改链接：指向内部文章页 (并移除 target="_blank" 等)  */}
+        <a href={`/life/${post.slug}/`}>
+          <div class="rounded-lg bg-accent/10 overflow-hidden group">
+            <div class="aspect-video overflow-hidden">
+              <img
+                class="size-full object-cover transition-transform group-hover:scale-110"
+                src={post.data.heroImage}
+                alt={`Cover for: ${post.data.title}`}
+                loading="lazy"
+              />
+            </div>
+            <div class="p-4">
+              <div class="group-hover:text-accent"> 
+                <span class="text-xl font-bold">{post.data.title}</span>
+                
+                {/* 6. (关键) 删除了外部链接的 "icon-external-link" 图标 [cite: 3] */}
+                
+              </div>
+              <p class="mt-2 text-sm line-clamp-2">{post.data.description}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    ))
+  }
+</ul>

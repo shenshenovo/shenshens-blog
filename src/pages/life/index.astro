@@ -1,0 +1,19 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import Highlight from '@/components/Highlight.astro';
+import ProjectList from '@/components/ProjectList.astro'; // <-- 这就是你修改的卡片列表
+---
+
+<PageLayout title="Life">
+  <div class="max-w-[800px] mx-auto px-4 py-16 space-y-8">
+    <header class="space-y-4">
+      <h1 class="text-4xl font-bold">
+        <Highlight>Life</Highlight>
+      </h1>
+      <p>这里是我的生活点滴、爱好和随想。</p>
+    </header>
+
+    <ProjectList />
+
+  </div>
+</PageLayout>

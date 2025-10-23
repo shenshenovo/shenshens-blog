@@ -1,0 +1,124 @@
+{
+  "site": {
+    "url": "https://gyoza.lxchapu.com",
+    "title": "shenshenovo's blog",
+    "description": "这是shenshenovo的个人博客",
+    "keywords": "Gyoza,blog,Astro,theme,shenshenovo,博客主题",
+    "lang": "zh-CN",
+    "favicon": "/favicon1.ico",
+    "appleTouchIcon": "/apple-touch-icon.png"
+  },
+  "author": {
+    "name": "深深",
+    "twitterId": "",
+    "avatar": "https://youke1.picui.cn/s1/2025/10/22/68f8a43e4936e.jpg"
+  },
+  "hero": {
+    "name": "shenshenovo",
+    "bio": "",
+    "description": "An ordinary student studying software engineering at UESTC",
+    "socials": [
+      {
+        "name": "Github",
+        "icon": "icon-github",
+        "url": "https://github.com/shenshenovo",
+        "color": "rgb(24, 23, 23)"
+      },
+      {
+        "name": "wechat",
+        "icon": "icon-wechat",
+        "url": "https://twitter.com/lxchapu",
+        "color": "#25b446",
+        "qrImage": "/my-wechat-qr.jpg",
+        "qrText": "扫一扫加微信"
+      },
+      {
+        "name": "QQ",
+        "icon": "icon-qq",
+        "url": "https://your-qq-link.com",
+        "color": "#12B7F5",
+        "qrImage": "/my-qq-qr.jpg",
+        "qrText": "扫一扫加QQ"
+      },
+      {
+        "name": "Email",
+        "icon": "icon-mail",
+        "url": "mailto:lxchapu@outlook.com",
+        "color": "rgb(212, 70, 56)"
+      }
+    ],
+    "yiyan": "我不会这样沉在河底的，雨季终将过去。"
+  },
+  "color": {
+    "accent": [
+      { "light": "#F55555", "dark": "#FCCF31" },
+      { "light": "#0396FF", "dark": "#ABDCFF" },
+      { "light": "#fb7287", "dark": "#99D8CF" },
+      { "light": "#F072B6", "dark": "#FFF886" },
+      { "light": "#9F44D3", "dark": "#E2B0FF" },
+      { "light": "#FF6666", "dark": "#A1CCD1" },
+      { "light": "#F6416C", "dark": "#838BC6" },
+      { "light": "#32CCBC", "dark": "#90F7EC" },
+      { "light": "#33A6B8", "dark": "#79F1A4" },
+      { "light": "#F55555", "dark": "#FCCF31" }
+    ],
+    "bg": {
+      "primary": { "light": "#ffffff", "dark": "#1c1c1e" },
+      "secondary": { "light": "#f4f4f5", "dark": "#27272a" }
+    },
+    "text": {
+      "primary": { "light": "#373a3c", "dark": "#ffffff" },
+      "secondary": { "light": "#71717a", "dark": "#d1d5db" }
+    },
+    "border": {
+      "primary": { "light": "#e4e4e7", "dark": "#3f3f46" }
+    }
+  },
+  "menus": [
+    {
+      "name": "Home",
+      "link": "/",
+      "icon": "icon-pantone"
+    },
+    {
+      "name": "Posts",
+      "link": "/archives",
+      "icon": "icon-archive"
+    },
+    {
+      "name": "Life",
+      "link": "/life",
+      "icon": "icon-calendar"
+    },
+    {
+      "name": "Aboutme",
+      "link": "/about",
+      "icon": "icon-ghost"
+    }
+  ],
+  "posts": {
+    "perPage": 10
+  },
+  "footer": {
+    "startTime": "2024-04-14T00:00:00Z"
+  },
+  "waline": {
+    "serverURL": "https://waline.lxchapu.com"
+  },
+  "sponsor": {
+    "wechat": "https://object.lxchapu.com/bed%2F2024%2F0507_6e3e8f73df2d4e6d.webp"
+  },
+  "analytics": {
+    "enable": false,
+    "google": {
+      "measurementId": ""
+    },
+    "umami": {
+      "serverUrl": "",
+      "websiteId": ""
+    },
+    "microsoftClarity": {
+      "projectId": ""
+    }
+  }
+}
