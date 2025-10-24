@@ -7,7 +7,7 @@
     "lang": "zh-CN",
     "favicon": "/favicon3.ico",
     "appleTouchIcon": "/apple-touch-icon.png",
-    "logo": "/1.png"
+    "logo": "/logo.png"
   },
   "author": {
     "name": "深深",
@@ -28,7 +28,7 @@
       {
         "name": "wechat",
         "icon": "icon-wechat",
-        "url": "https://twitter.com/lxchapu",
+        "url": "#",
         "color": "#25b446",
         "qrImage": "/my-wechat-qr.jpg",
         "qrText": "扫一扫加微信"
@@ -36,7 +36,7 @@
       {
         "name": "QQ",
         "icon": "icon-qq",
-        "url": "https://your-qq-link.com",
+        "url": "#",
         "color": "#12B7F5",
         "qrImage": "/my-qq-qr.jpg",
         "qrText": "扫一扫加QQ"
@@ -44,11 +44,12 @@
       {
         "name": "Email",
         "icon": "icon-mail",
-        "url": "mailto:lxchapu@outlook.com",
-        "color": "rgb(212, 70, 56)"
+        "url": "#",
+        "color": "rgb(212, 70, 56)",
+        "qrTextLines": ["3244180869@qq.com", "shenshentvt@gmail.com"]
       }
     ],
-    "yiyan": "我不会这样沉在河底的，雨季终将过去。"
+    "yiyan": "我不会永远这样沉在河底的，雨季终将过去。"
   },
   "color": {
     "accent": [
