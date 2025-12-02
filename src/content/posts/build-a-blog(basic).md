@@ -84,6 +84,7 @@ summary: 基于astro和netlify搭建个人博客
 2.  **添加 React 集成:**
     - (Gyoza 主题可能需要，也是很多现代组件库的基础)
     <!-- end list -->
+
     ```bash
     pnpm dlx astro add react
     ```
@@ -117,18 +118,22 @@ summary: 基于astro和netlify搭建个人博客
       ```
 3.  **打包、存档并推送你的代码:**
     - 在 CMD 终端按顺序运行以下命令：
+
       ```bash
       git add .
       ```
+
       ```bash
       git commit -m "feat: initial commit, blog is ready"
       ```
 
       - _(注意：Commit message 必须符合 Gyoza 主题的 `commitlint` 规则，例如以 `feat:` 或 `fix:` 等小写类型开头)_
       <!-- end list -->
+
       ```bash
       git push -u origin main
       ```
+
     - _(如果提示登录 GitHub，请完成登录)_
 
 ---
@@ -171,3 +176,5 @@ summary: 基于astro和netlify搭建个人博客
     - Netlify 会自动完成验证并配置 HTTPS。
 
 之后，你的博客就可以通过 `https://shenshenovo.cn` 访问了。未来的更新只需在本地修改代码，然后 `git add .`, `git commit -m "..."`, `git push origin main` 即可自动触发 Netlify 部署。
+
+---

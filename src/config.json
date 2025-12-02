@@ -1,6 +1,6 @@
 {
   "site": {
-    "url": "https://gyoza.lxchapu.com",
+    "url": "https://shenshenovo.cn",
     "title": "shenshenovo's blog",
     "description": "这是shenshenovo的个人博客",
     "keywords": "Gyoza,blog,Astro,theme,shenshenovo,博客主题",
@@ -108,7 +108,7 @@
     "serverURL": "https://waline.lxchapu.com"
   },
   "sponsor": {
-    "wechat": "https://object.lxchapu.com/bed%2F2024%2F0507_6e3e8f73df2d4e6d.webp"
+    "wechat": "/3.jpg"
   },
   "analytics": {
     "enable": false,
