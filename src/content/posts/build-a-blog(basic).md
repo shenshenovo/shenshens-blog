@@ -1,7 +1,7 @@
 ---
 title: 如何从零开始搭建自己的博客（basic）
 date: 2025-10-24
-lastMod: 2024-05-18T07:29:49.820Z
+lastMod: 2025-12-02
 tags: [blog]
 category: 博客
 summary: 基于astro和netlify搭建个人博客
